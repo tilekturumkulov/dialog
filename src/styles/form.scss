@@ -1,0 +1,34 @@
+.form{
+    padding-top: 80px;
+    background: url('../images/form.png') center/cover no-repeat; 
+    &__content{
+        padding: 100px 0 100px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+    &__text{
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-top: 28px;
+    }
+    &__btn{
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #E6514A;
+        border-radius: 30px;
+        padding: 16px 60px;
+        border: none;
+    }
+}

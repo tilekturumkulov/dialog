@@ -1,0 +1,73 @@
+.footer{
+    background: #3035C4;
+    padding: 60px 135px 52px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__authors{
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-top: 27px;
+    }
+    &__links{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        &-item{
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    }
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        &-box{
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+        }
+        &-title{
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        &-text{
+            font-weight: 400;
+            font-size: 14px;
+            color: #FFFFFF;
+            display: flex;
+            column-gap: 12px;
+        }
+    }
+    &__line{
+        width: 100%;
+        height: 2px;
+        background: #FFFFFF;
+        opacity: 0.3;
+        margin-top: 52px;
+    }
+    &__bottom{
+        padding: 33px 0 41px;
+        display: flex;
+        justify-content: space-between;
+        &-texts{
+            display: flex;
+            column-gap: 24px;
+        }
+        &-text{
+            font-weight: 400;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    }
+    &__messengers{
+        display: flex;
+        column-gap: 20px;
+    }
+}

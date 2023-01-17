@@ -1,0 +1,29 @@
+.free{
+    padding: 140px 0 180px;
+    &__content{
+        height: 388px;
+        width: 100%;
+        background: url('../images/free.png') center/cover no-repeat; 
+        display: flex;
+        justify-content: space-between;
+        padding: 0 70px;
+        align-items: center;
+    }
+    &__text{
+        width: 60%;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+    &__btn{
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #E6514A;
+        border-radius: 30px;
+        padding: 16px 60px;
+        border: none;
+    }
+}
